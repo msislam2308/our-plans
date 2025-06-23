@@ -1,0 +1,205 @@
+.header{
+    background-image: url(images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh; /* পুরো ভিউপোর্ট হাইট */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* ডানে নেবার জন্য */
+    padding: 50px;
+    box-sizing: border-box;
+}
+.header-title{
+    color: rgb(59, 53, 53); /* টেক্সট কালার */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.header-title-special{
+    margin-left: 70px;
+    margin-top: 100px;
+}
+nav{
+    justify-content: space-between;
+    align-items: right;
+    margin: 200px 0;
+}
+.header-description{
+    color: rgb(118, 86, 86); /* টেক্সট কালার */
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 600px;
+    text-align: right;
+}
+.btcolor{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.title-container{
+    display: flex;
+    gap: 50px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+}
+.title-column1,
+.title-column2 {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+}
+.title-column1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.title-column1::before {
+        content: "";
+        position: absolute;
+        width: 480px;
+        height: 480px;
+        background-color: antiquewhite;
+        border-radius: 50%;
+        z-index: 0;
+}
+.title-column1 img {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    z-index: 1;
+    position: relative;
+}
+.title-column2 {
+    padding: 20px;
+}
+.header-description ul {
+    padding-left: 0;
+    margin: 0;
+}
+.header-description li {
+    list-style: none;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+.header-description li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.section-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #8f7575;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.section-header-title{
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.skill{
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 220px;
+    height: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.section-div{
+    background-image: url(images/watch.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh; /* পুরো ভিউপোর্ট হাইট */
+    display: flex;
+    align-items: center;
+    justify-content: left; /* ডানে নেবার জন্য */
+    
+    box-sizing: border-box;
+    margin: 80px 80px;
+}
+.section-btcolor{
+    border-radius: 5px;
+    color: orange;
+    background: #ffffff;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+.section-btcolor:hover {
+    background-color: #56bd56;
+}
+.footer{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh; /* পুরো ভিউপোর্ট হাইট */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* ডানে নেবার জন্য */
+    padding: 50px;
+    box-sizing: border-box;
+}
+.footer-column{
+    width: 50%;
+    margin-left: 300px;
+    
+}
+.transparent-input {
+    background-color: transparent;
+    border: 2px solid #ccc;
+    color: #fff; /* লেখার রঙ – dark bg হলে সাদা ভালো */
+    padding: 15px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.transparent-input::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* placeholder এর হালকা রঙ */
+}
+
+.transparent-input:focus {
+    border-color: #56bd56; /* ফোকাস করলে সবুজ বর্ডার */
+}
+.sub-footer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+}
+.multi-bg{
+    background-image: url(images/gradient1.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 50vh; 
+    width: 100%;
+}
