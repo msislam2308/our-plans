@@ -66,8 +66,8 @@ nav{
 .title-column1::before {
         content: "";
         position: absolute;
-        width: 480px;
-        height: 480px;
+        width: 500px;
+        height: 500px;
         background-color: antiquewhite;
         border-radius: 50%;
         z-index: 0;
